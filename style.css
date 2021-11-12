@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keys-container {
+    display: flex;
+}
+
+.keys-container .key {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 0 6px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.keys-container .key kbd {
+    font-size: 1em;
+}
+
+.keys-container .key span {
+    font-size: 0.6em;
+    margin-top: 10px;
+}
