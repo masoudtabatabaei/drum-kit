@@ -27,13 +27,17 @@ body {
     margin: 0 6px;
     font-size: 22px;
     cursor: pointer;
+    background: rgb(56,54,52);
+    background: linear-gradient(0deg, rgba(56,54,52,1) 0%, rgba(28,26,26,1) 35%);
 }
 
 .keys-container .key kbd {
-    font-size: 1em;
+    font-size: 1.2em;
+    color: #ffffff;
 }
 
 .keys-container .key span {
-    font-size: 0.6em;
-    margin-top: 10px;
+    font-size: 0.5em;
+    color: #ffff00;
+    margin-top: 7px;
 }
