@@ -28,7 +28,12 @@ body {
     font-size: 22px;
     cursor: pointer;
     background: rgb(56,54,52);
-    background: linear-gradient(0deg, rgba(56,54,52,1) 0%, rgba(28,26,26,1) 35%);
+    background: linear-gradient(0deg, rgb(66 63 63) 0%, rgb(38 36 36) 35%);
+}
+
+.keys-container .key.pressed {
+    /* background: linear-gradient(0deg, rgba(56,54,52,1) 0%, rgba(28,26,26,1) 100%); */
+    background: #000000;
 }
 
 .keys-container .key kbd {
